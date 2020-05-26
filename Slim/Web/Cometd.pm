@@ -242,6 +242,7 @@ sub handler {
 
 			push @{$events}, {
 				channel					 => '/meta/handshake',
+				id                                       => $obj->{id},
 				version					 => PROTOCOL_VERSION,
 				supportedConnectionTypes => [ 'long-polling', 'streaming' ],
 				clientId				 => $clid,
@@ -258,6 +259,7 @@ sub handler {
 			# sent in the response, so it's stored in the special first_event slot
 			$conn->[HTTP_CLIENT]->first_event( {
 				channel    => $obj->{channel},
+				id         => $obj->{id},
 				clientId   => $clid,
 				successful => JSON::XS::true,
 				timestamp  => time2str( time() ),
@@ -319,6 +321,7 @@ sub handler {
 			# disconnect them
 			push @{$events}, {
 				channel    => '/meta/disconnect',
+				id         => $obj->{id},
 				clientId   => $clid,
 				successful => JSON::XS::true,
 				timestamp  => time2str( time() ),
