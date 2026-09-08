@@ -217,7 +217,7 @@ sub _getTTFFontFile {
 		my @pluginFonts = grep { $_ } split(/\n/, read_file($fontsListFile)) if -e $fontsListFile;
 
 		# Try a few different fonts..
-		for my $fontFile (@pluginFonts, qw(arialuni.ttf ARIALUNI.TTF CODE2000.TTF Cyberbit.ttf CYBERBIT.TTF)) {
+		for my $fontFile (@pluginFonts, qw(arialuni.ttf ARIALUNI.TTF Cyberbit.ttf CYBERBIT.TTF)) {
 			my $file = catdir($fontFolder, $fontFile);
 
 			if (-e $file) {

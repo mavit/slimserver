@@ -18,9 +18,6 @@ included below for your convenience.
 
 - SoftSqueeze is (c) Richard Titmuss and is licensed under GPL.
 
-- The CODE2000 TrueType Font is (c) James Kass and is Shareware.
-  See Graphics/CODE2000.HTM for more information.
-
 - Certain integral components of Lyrion Music Server, such as CPAN modules,
 are (c) of their respective authors, and are included in Lyrion Music Server
 per their respective licenses.
@@ -406,9 +403,3 @@ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRU
 HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
 TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-#------------------------------------------------------------------
-
-The Code2000 font is copyright James Kass, distributed by permission of the author.
-
-Details about Code2000 may be found in Graphics/CODE2000.HTM
