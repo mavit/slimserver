@@ -90,7 +90,7 @@ my %models = (
 	default     => {
 		modelName => 'Squeezebox',
 		url       => 'https://www.lyrion.org',
-		icon      => '/html/images/slimdevices_logo',
+		icon      => '/html/images/Players/softsqueeze',
 	},
 );
 
